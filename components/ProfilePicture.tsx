@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import back from '@/public/image/ezgif.gif'
 import profile from '../public/image/profile_blackwhite.jpg'
-import { FaInstagram } from "react-icons/fa";
 import { RiTelegram2Line } from "react-icons/ri";
 import { FaWhatsapp } from "react-icons/fa";
 import { LuPhoneCall } from "react-icons/lu";
@@ -11,10 +10,6 @@ import { HiOutlineMail } from "react-icons/hi";
 function ProfilePicture() {
 
     const socialLinks = [
-        {
-            icon: <FaInstagram />,
-            link: 'http://instagram.com/_u/ayarecode/'
-        },
         {
             icon: <RiTelegram2Line />,
             link: 'https://t.me/itsayare'
