@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-// import back from '@/public/image/ezgif.gif'
 import back from '@/public/image/lights.jpg'
 import profile from '../public/image/profile_blackwhite.jpg'
 import { RiTelegram2Line } from "react-icons/ri";

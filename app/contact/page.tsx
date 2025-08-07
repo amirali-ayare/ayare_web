@@ -14,11 +14,6 @@ function page() {
             text: 'itsAyare@'
         },
         {
-            icon: <FaInstagram />,
-            link: 'http://instagram.com/_u/ayarecode/',
-            text: 'ayareCode'
-        },
-        {
             icon: <FaWhatsapp />,
             link: 'https://wa.me/989053775869',
             text: '09053775869'
