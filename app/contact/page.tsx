@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { LuPhoneCall } from 'react-icons/lu'
 import { RiTelegram2Line } from 'react-icons/ri'
