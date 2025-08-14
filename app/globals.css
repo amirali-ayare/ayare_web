@@ -100,3 +100,27 @@ body {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+@keyframes bigSpin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes smallSpin {
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+.spinBig {
+  animation: infinite bigSpin 7s linear;
+}
+.spinSmall {
+  animation: infinite smallSpin 5s linear;
+}
