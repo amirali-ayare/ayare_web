@@ -4,7 +4,8 @@ import ProfileSide from "@/components/ProfileSide";
 
 export const metadata: Metadata = {
   title: "ایاره | طراحی سایت",
-  description: "طراحی سایت با ایاره"
+  description: "طراحی سایت اختصاصی با امیرعلی ایاره",
+  keywords:["امیرعلی ایاره", "ایاره", "amirali ayare", "ayare", "طراحی سایت", "طراحی سایت اختصاصی"]
 };
 
 export default function RootLayout({
